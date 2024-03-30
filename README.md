@@ -1,3 +1,38 @@
 # detect-Malaria-Cells-using-Convolutional-Neural-Networks-CNN-
 The project on detecting malaria cells using Convolutional Neural Networks (CNN) involves creating a model that can identify and differentiate between infected and non-infected blood cells from microscopic images.
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0010482522004279&psig=AOvVaw16SbROWkiE13aAZu368L78&ust=1711892524800000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDQqt-OnIUDFQAAAAAdAAAAABAJ" alt="Image Description">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Display</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .image-container {
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://via.placeholder.com/300" alt="Image Description">
+    </div>
+</body>
+</html>
